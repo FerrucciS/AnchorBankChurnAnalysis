@@ -18,7 +18,7 @@ Insights and recommendations are provided on the following key areas:
 - __Customer Profiles__: Which demographic and behavioural characteristics (e.g., age, gender, credit rating, activity level) are most associated with churn?
 - __Retention Priorities__: Where should Anchor Bank focus its efforts to achieve the biggest impact in reducing churn?
 
-An interactive PowerBI report can be downloaded ()[here].
+An interactive PowerBI report can be downloaded [here](Bank.pbix.
 The findings are presented in two layers:
 - __Overview (Page 1)__: High-level trends and key customer segments at risk.
 - __Drivers (Page 2)__: Deeper analysis of underlying casues of churn and actionale recommendations.
@@ -29,4 +29,16 @@ To support the churn analysis, a data model was developed in PowerBI using a sta
 - __Fact Table__: Bank_churn.
 - __Dimension Tables__: Date, CustomerInfo, ActiveCustomers, Credit_card, Exit_Customer, Geography.
 
-  ![Star Schema Diagram](image.jpg)
+![Star Schema Diagram](images/DataModel.png)
+
+
+## Executive Summary
+
+
+## Churn Trends
+
+![Overview](images/ChurnRateOverview.png)
+
+## Churn Causes
+
+![Insights](images/ChurnRateInsights.png)
